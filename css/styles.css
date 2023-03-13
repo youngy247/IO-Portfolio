@@ -25,7 +25,7 @@ header {
 }
 
 #profile-picture {
-  width: 50px;
+  width: 14vw;
   justify-content: flex-start;
   border-radius: 50%;
 }
