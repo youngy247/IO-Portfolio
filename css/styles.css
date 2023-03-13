@@ -23,34 +23,31 @@ header {
 }
 
 #profile-picture-container {
-  margin: 0.5rem;
+  margin: 0.3rem;
   border: 1px solid red;
   display: flex;
   flex-direction: column;
-  font-size: 0.85em;
 }
 #profile-picture-container p {
   align-self: center;
-
-  font-size: 2.75vw;
+  font-size: 3.1vw;
 }
 
 #profile-picture {
-  margin: 1vw;
-  width: 14vw;
+  margin: 1.3vw;
+  width: 14.5vw;
 
-  justify-content: flex-start;
   border-radius: 50%;
 }
 
 .links-container {
   padding: 1em;
+  max-width: 80vw;
   display: flex;
   flex-grow: 1;
   justify-content: space-around;
   align-items: center;
-  column-gap: 1.3em;
-  font-size: 0.8em;
+  column-gap: 0.85em;
   list-style: none;
   background-color: #85c7f19b;
   border: 1px solid red;
