@@ -118,14 +118,25 @@ section {
 }
 
 .about-container {
-  justify-content: center;
 }
 
-#about h2 {
+#about h2,
+#projects h2,
+#contact h2 {
   text-align: center;
+  text-decoration: underline;
 }
 
-#about p {
+#about p,
+#projects h3 {
   padding: 2rem 0;
   margin: 0;
+}
+
+/* Desktop */
+@media only screen and (min-width: 992px) {
+}
+
+#projects img {
+  width: 50vw;
 }
