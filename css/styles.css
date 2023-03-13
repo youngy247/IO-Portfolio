@@ -105,8 +105,10 @@ section {
   display: block;
 }
 
-#about {
-  width: 75%;
+#about,
+#projects,
+#contact {
+  width: 85%;
   margin: 0 auto;
   padding: 3rem;
   display: flex;
