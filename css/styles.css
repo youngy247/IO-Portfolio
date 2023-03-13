@@ -80,6 +80,7 @@ header {
   background-size: cover;
   position: relative;
   top: 12vh;
+  z-index: -1;
 }
 
 .hero-text {
