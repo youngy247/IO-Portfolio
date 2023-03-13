@@ -34,24 +34,28 @@ header {
 }
 
 #profile-picture {
+  margin: 1vw;
   width: 14vw;
   justify-content: flex-start;
   border-radius: 50%;
 }
 
 .links-container {
-  margin: vw;
   padding: 1em;
   display: flex;
+  flex-grow: 1;
+  justify-content: space-around;
   align-items: center;
   column-gap: 1.3em;
   font-size: 0.8em;
   list-style: none;
-  background-color: grey;
+  background-color: #85c7f19b;
   border: 1px solid red;
 }
 
 .links-container a {
   text-decoration: none;
+  font-size: 4vw;
+
   color: #ffffff;
 }
