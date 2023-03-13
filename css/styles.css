@@ -41,7 +41,7 @@ header {
 }
 
 #profile-picture {
-  margin: 1.3vw;
+  margin: 0 1.3vw;
   width: 14.5vw;
   border-radius: 50%;
 }
@@ -103,4 +103,27 @@ header {
 
 section {
   display: block;
+}
+
+#about {
+  width: 75%;
+  margin: 0 auto;
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 1px solid red;
+}
+
+.about-container {
+  justify-content: center;
+}
+
+#about h2 {
+  text-align: center;
+}
+
+#about p {
+  padding: 2rem 0;
+  margin: 0;
 }
