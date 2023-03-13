@@ -10,10 +10,23 @@ html {
 }
 
 .navbar {
-  list-style: none;
+  display: flex;
+  border: 1px solid red;
+  justify-content: flex-end;
 }
 
-.navbar a {
+.links-container {
+  margin: 1vw;
+  padding: 1em;
+  display: flex;
+  column-gap: 2em;
+  font-size: 0.8em;
+  list-style: none;
+  background-color: grey;
+  border: 1px solid red;
+}
+
+.links-container a {
   text-decoration: none;
   color: #ffffff;
 }
