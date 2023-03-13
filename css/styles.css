@@ -57,3 +57,7 @@ header {
   cursor: pointer;
   color: #e4fde1;
 }
+
+.links-container a:hover {
+  color: black;
+}
