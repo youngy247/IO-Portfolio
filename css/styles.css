@@ -5,21 +5,30 @@
 }
 
 html {
-  background: #000000;
+  background: #454545;
   color: #ffffff;
 }
 
 .navbar {
+  position: fixed;
+  width: 100%;
   display: flex;
   border: 1px solid red;
   justify-content: flex-end;
+  background-color: #759eb8;
+}
+
+#profile-picture {
+  width: 50px;
+  justify-content: flex-start;
+  border-radius: 50%;
 }
 
 .links-container {
   margin: 1vw;
   padding: 1em;
   display: flex;
-  column-gap: 2em;
+  column-gap: 1.5em;
   font-size: 0.8em;
   list-style: none;
   background-color: grey;
