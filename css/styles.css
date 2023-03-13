@@ -8,14 +8,20 @@ html {
   background: #454545;
   color: #ffffff;
 }
-
-.navbar {
+header {
   position: fixed;
+  width: 100%;
+}
+.navbar {
   width: 100%;
   display: flex;
   border: 1px solid red;
-  justify-content: flex-end;
+  justify-content: space-between;
   background-color: #759eb8;
+}
+
+#profile-picture-container {
+  border: 1px solid red;
 }
 
 #profile-picture {
