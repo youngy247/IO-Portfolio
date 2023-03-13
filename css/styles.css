@@ -23,19 +23,22 @@ header {
 }
 
 #profile-picture-container {
+  margin: 0.5rem;
   border: 1px solid red;
   display: flex;
-  column-gap: 0.75em;
+  flex-direction: column;
   font-size: 0.85em;
 }
 #profile-picture-container p {
   align-self: center;
-  font-size: 0.85rem;
+
+  font-size: 2.75vw;
 }
 
 #profile-picture {
   margin: 1vw;
   width: 14vw;
+
   justify-content: flex-start;
   border-radius: 50%;
 }
