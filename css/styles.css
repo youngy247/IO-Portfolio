@@ -23,19 +23,17 @@ header {
 }
 
 #profile-picture-container {
-  margin: 0.3rem;
+  margin: 1.3vw;
   display: flex;
   flex-direction: column;
 }
 #profile-picture-container p {
-  align-self: center;
   font-size: 3.1vw;
 }
 
 #profile-picture {
   margin: 1.3vw;
   width: 14.5vw;
-
   border-radius: 50%;
 }
 
