@@ -8,7 +8,7 @@
 
 html {
   background: #454545;
-  color: #ffffff;
+  color: #e4fde1;
 }
 header {
   position: fixed;
@@ -17,14 +17,13 @@ header {
 .navbar {
   width: 100%;
   display: flex;
-  border: 1px solid red;
+
   justify-content: space-between;
   background-color: #759eb8;
 }
 
 #profile-picture-container {
   margin: 0.3rem;
-  border: 1px solid red;
   display: flex;
   flex-direction: column;
 }
@@ -50,12 +49,11 @@ header {
   column-gap: 0.85em;
   list-style: none;
   background-color: #85c7f19b;
-  border: 1px solid red;
 }
 
 .links-container a {
   text-decoration: none;
   font-size: 4vw;
-
-  color: #ffffff;
+  cursor: pointer;
+  color: #e4fde1;
 }
