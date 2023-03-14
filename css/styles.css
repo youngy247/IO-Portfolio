@@ -31,17 +31,17 @@ header {
 
 #profile-picture-container {
   margin: 0 auto;
-  border: 1px solid red;
   width: 100%;
 }
 
 #profile-name {
+  margin-left: 0.15rem;
   font-size: 3.1vw;
   padding-bottom: 0.4em;
 }
 
 #profile-picture {
-  margin: 0.2rem 0.4rem 0 0.4rem;
+  margin: 0.2rem 0.5rem 0 0.6rem;
   width: 13vw;
   border-radius: 50%;
 }
@@ -80,7 +80,7 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  margin-top: 3.8rem;
+  margin-top: 3.6rem;
   z-index: -1;
 }
 
@@ -237,9 +237,15 @@ footer {
     max-width: 8vh;
     max-height: 8vh;
   }
+  #profile-name {
+    margin-top: 0.3em;
+    font-size: 1.8rem;
+  }
 
   .links-container {
     flex-grow: 0;
+    column-gap: 3rem;
+    margin-right: 2rem;
   }
   .links-container a {
     font-size: 1.5rem;
