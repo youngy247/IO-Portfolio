@@ -17,6 +17,7 @@ html {
 }
 
 header {
+  top: 0;
   position: fixed;
   width: 100%;
 }
@@ -25,7 +26,7 @@ header {
   width: 100%;
   display: flex;
   justify-content: space-between;
-  background-color: #3c17a2;
+  background-color: #2a1b1b;
 }
 
 #profile-picture-container {
@@ -54,7 +55,7 @@ header {
   align-items: center;
   column-gap: 0.85em;
   list-style: none;
-  background-color: #2e2eb29b;
+  background-color: #432929;
 }
 
 .links-container a {
@@ -102,6 +103,7 @@ header {
 
 section {
   display: block;
+  padding-top: 0.4rem;
 }
 
 #about,
@@ -109,7 +111,7 @@ section {
 #contact {
   width: 90%;
   margin: 0 auto;
-  padding: 3rem;
+  padding: 2.7rem 2.7rem 0rem 2.7rem;
   display: flex;
   flex-direction: column;
   border: 1px solid red;
@@ -129,6 +131,7 @@ section {
 #about h2,
 #projects h2,
 #contact h2 {
+  margin-top: 1.75rem;
   text-align: center;
   text-decoration: underline;
 }
@@ -146,6 +149,7 @@ section {
 .project-container img {
   width: 55vw;
   padding-bottom: 2rem;
+  margin: 1.5rem;
 }
 
 .project-container p {
