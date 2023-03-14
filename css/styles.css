@@ -180,12 +180,13 @@ section {
   font-size: 0.8rem;
   width: 3rem;
   margin: 0 1.5rem;
+  border: 1px solid red;
 }
 
 .project-icon {
   display: flex;
   justify-content: flex-start;
-  row-gap: 0.2em;
+  row-gap: 0.5em;
   flex-direction: column;
   border: 1px solid red;
 }
