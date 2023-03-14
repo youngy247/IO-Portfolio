@@ -14,9 +14,6 @@ html {
 #main-grid {
   display: grid;
   grid-template-columns: 1fr;
-
-  height: 100vh;
-  width: 100vw;
 }
 
 header {
@@ -42,8 +39,9 @@ header {
 }
 
 #profile-picture {
+  margin: 0.2rem 0.4rem 0 0.4rem;
   justify-content: center;
-  width: 3rem;
+  width: 13vw;
   border-radius: 50%;
 }
 
@@ -95,11 +93,11 @@ header {
 }
 
 .hero-text h1 {
-  font-size: 3rem;
+  font-size: 12vw;
 }
 
 .hero-text p {
-  font-size: 1.1rem;
+  font-size: 4vw;
 }
 
 section {
