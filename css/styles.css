@@ -131,9 +131,12 @@ section {
 #about h2,
 #projects h2,
 #contact h2 {
-  margin-top: 1.75rem;
   text-align: center;
   text-decoration: underline;
+}
+#about h2,
+#projects h2 {
+  margin-top: 1.75rem;
 }
 
 #about p,
@@ -207,9 +210,9 @@ section {
   display: grid;
   grid-template-columns: 1fr 1fr;
   text-align: center;
-  width: 60%;
+  width: 55%;
   margin: 0 auto;
-  gap: 0.5rem 1rem;
+  gap: 0.5rem 0;
   border: 1px solid red;
 }
 
