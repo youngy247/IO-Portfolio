@@ -25,7 +25,7 @@ header {
   width: 100%;
   display: flex;
   justify-content: space-between;
-  background-color: #759eb8;
+  background-color: #3c17a2;
 }
 
 #profile-picture-container {
@@ -54,7 +54,7 @@ header {
   align-items: center;
   column-gap: 0.85em;
   list-style: none;
-  background-color: #85c7f19b;
+  background-color: #2e2eb29b;
 }
 
 .links-container a {
