@@ -120,6 +120,7 @@ section {
 .about-container {
   display: flex;
   flex-direction: column;
+  row-gap: 1rem;
   border: 1px solid red;
 }
 
@@ -142,11 +143,12 @@ section {
 
 #about p,
 #projects h3 {
-  padding: 1.5rem 0;
+  padding: 1rem;
   margin: 0 auto;
 }
 
 #about h3 {
+  margin-top: 1rem;
   padding: 1rem 1.5rem 0rem 1.5rem;
 }
 .project-container {
@@ -159,7 +161,7 @@ section {
 }
 
 .project-container p {
-  padding-bottom: 0.8rem;
+  padding: 0.3rem 0.8rem 0.8rem 0.8rem;
 }
 
 .project-img-container {
