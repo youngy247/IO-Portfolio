@@ -254,6 +254,9 @@ footer {
     grid-template-columns: 1fr 1fr;
     padding-bottom: 2.5rem;
   }
+  .project-img-container {
+    margin-top: 1.3rem;
+  }
 
   .project-img {
     max-width: 33vw;
