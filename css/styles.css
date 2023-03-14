@@ -32,9 +32,9 @@ header {
 }
 
 #profile-picture-container {
-  margin: 1.3vw;
   display: flex;
-  flex-direction: column;
+  margin: 0 auto;
+  border: 1px solid red;
 }
 
 #profile-picture-container p {
@@ -42,8 +42,8 @@ header {
 }
 
 #profile-picture {
-  margin: 0 1.3vw;
-  width: 14.5vw;
+  justify-content: center;
+  width: 3rem;
   border-radius: 50%;
 }
 
@@ -109,7 +109,7 @@ section {
 #about,
 #projects,
 #contact {
-  width: 75%;
+  width: 90%;
   margin: 0 auto;
   padding: 3rem;
   display: flex;
