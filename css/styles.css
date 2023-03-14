@@ -31,7 +31,6 @@ header {
 #profile-picture-container {
   display: flex;
   margin: 0 auto;
-  border: 1px solid red;
 }
 
 #profile-picture-container p {
@@ -79,7 +78,7 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  margin-top: 3rem;
+  margin-top: 4rem;
   z-index: -1;
 }
 
