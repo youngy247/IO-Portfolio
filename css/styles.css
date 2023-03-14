@@ -206,7 +206,8 @@ section {
 .contact-links {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  width: 65%;
+  text-align: center;
+  width: 60%;
   margin: 0 auto;
   gap: 0.5rem 1rem;
   border: 1px solid red;
