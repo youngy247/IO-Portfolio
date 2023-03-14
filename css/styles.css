@@ -146,6 +146,9 @@ section {
   margin: 0 auto;
 }
 
+#about h3 {
+  padding: 1rem 1.5rem 0rem 1.5rem;
+}
 .project-container {
   border: 1px solid red;
 }
