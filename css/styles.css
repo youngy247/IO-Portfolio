@@ -35,6 +35,7 @@ header {
 
 #profile-picture-container p {
   font-size: 3.1vw;
+  padding-bottom: 0.4em;
 }
 
 #profile-picture {
