@@ -229,14 +229,16 @@ footer {
   }
   #profile-picture-container {
     display: flex;
-
+    align-items: center;
     margin: 0;
   }
-  #profile-picture-container img {
+  #profile-picture {
+    margin-right: 10px;
     max-width: 8vh;
     max-height: 8vh;
   }
   #profile-name {
+    display: inline-block;
   }
 
   .links-container {
