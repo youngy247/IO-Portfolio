@@ -117,6 +117,12 @@ section {
   border: 1px solid red;
 }
 
+.divider {
+  width: 3rem;
+  border: 1px solid gold;
+  margin: 1.1rem auto;
+}
+
 .about-container {
   display: flex;
   flex-direction: column;
@@ -133,8 +139,8 @@ section {
 #about h2,
 #projects h2,
 #contact h2 {
+  font-size: 2.5rem;
   text-align: center;
-  text-decoration: underline;
 }
 #about h2,
 #projects h2 {
