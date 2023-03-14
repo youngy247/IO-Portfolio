@@ -80,7 +80,7 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  margin-top: 4rem;
+  margin-top: 3.9rem;
   z-index: -1;
 }
 
@@ -145,13 +145,6 @@ section {
   margin: 0 auto;
 }
 
-/* Desktop */
-@media only screen and (min-width: 600px) {
-  .project-icon {
-    font-size: 2em;
-  }
-}
-
 .project-container {
   display: flex;
   flex-direction: column;
@@ -170,7 +163,6 @@ section {
 .project-img-container {
   width: 90%;
   display: flex;
-
   flex-wrap: wrap;
   padding-bottom: 1rem;
   margin: 0.2rem 1.5rem 0.5rem 1.5rem;
@@ -225,4 +217,27 @@ section {
 footer {
   margin-left: 2rem;
   padding: 1rem;
+}
+
+/* Desktop */
+@media only screen and (min-width: 600px) {
+  .project-icon {
+    font-size: 2em;
+  }
+  .navbar {
+    max-height: 10vh;
+  }
+  #profile-picture-container {
+    margin: 0;
+  }
+  #profile-picture-container img {
+    max-width: 8vh;
+    max-height: 8vh;
+  }
+  .links-container {
+    flex-grow: 0;
+  }
+  .links-container a {
+    font-size: 1.5rem;
+  }
 }
