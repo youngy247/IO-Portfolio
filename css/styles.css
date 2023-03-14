@@ -124,7 +124,7 @@ section {
   border: 1px solid red;
 }
 
-.about-img {
+.about-img-container {
   max-width: 50vw;
   border: 1px solid red;
   margin: 0 auto;
