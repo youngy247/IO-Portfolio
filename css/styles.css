@@ -146,8 +146,6 @@ section {
 }
 
 .project-container {
-  display: flex;
-  flex-direction: column;
   border: 1px solid red;
 }
 
@@ -250,19 +248,25 @@ footer {
   .links-container a {
     font-size: 1.5rem;
   }
+
   .project-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    padding-bottom: 2.5rem;
   }
+
   .project-img {
     max-width: 33vw;
   }
-  .project-content1 {
-    grid-column-start: 2;
-  }
+
   .project-content1 h3,
   .project-content2 h3 {
     text-align: center;
+  }
+  .project-content1 {
+    grid-column-start: 2;
+    grid-row-start: 1;
+    border: 1px solid red;
   }
   .project-content2 {
     grid-column-start: 1;
