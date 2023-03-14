@@ -75,7 +75,7 @@ header {
 .hero-image {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url(../images/heroimage.jpg);
-  height: 50vh;
+  height: 50vw;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -108,7 +108,7 @@ section {
 #about,
 #projects,
 #contact {
-  width: 85%;
+  width: 75%;
   margin: 0 auto;
   padding: 3rem;
   display: flex;
@@ -130,13 +130,19 @@ section {
 #about p,
 #projects h3 {
   padding: 2rem 0;
-  margin: 0;
+  margin: 0 auto;
 }
 
 /* Desktop */
 @media only screen and (min-width: 992px) {
 }
 
-#projects img {
-  width: 50vw;
+.project-container img {
+  width: 55vw;
+  padding-bottom: 2rem;
+  margin: 0 auto;
+}
+
+.project-container p {
+  padding-bottom: 1rem;
 }
