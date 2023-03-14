@@ -187,6 +187,7 @@ section {
 .project-icon {
   display: flex;
   justify-content: flex-start;
+  align-items: center;
   row-gap: 0.5em;
   flex-direction: column;
   border: 1px solid red;
