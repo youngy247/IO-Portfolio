@@ -272,7 +272,8 @@ footer {
     grid-row-start: 1;
     border: 1px solid red;
   }
-  .project-content2 {
+  .project-content2,
+  .about-container {
     grid-column-start: 1;
   }
 }
