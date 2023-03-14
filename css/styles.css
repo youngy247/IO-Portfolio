@@ -123,8 +123,9 @@ section {
   border: 1px solid red;
 }
 
-.about-container img {
-  width: 30vw;
+.about-img {
+  max-width: 50vw;
+  border: 1px solid red;
   margin: 0 auto;
 }
 
@@ -264,7 +265,8 @@ footer {
   }
 
   .project-content1 h3,
-  .project-content2 h3 {
+  .project-content2 h3,
+  .about-container h3 {
     text-align: center;
   }
   .project-content1 {
