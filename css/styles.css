@@ -219,7 +219,7 @@ footer {
   padding: 1rem;
 }
 
-/* Desktop */
+/* Desktop version*/
 @media only screen and (min-width: 600px) {
   .project-icon {
     font-size: 2em;
@@ -249,5 +249,12 @@ footer {
   }
   .links-container a {
     font-size: 1.5rem;
+  }
+  .project-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .project-img {
+    max-width: 33vw;
   }
 }
