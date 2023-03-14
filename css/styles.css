@@ -283,4 +283,7 @@ footer {
   .about-container {
     grid-column-start: 1;
   }
+  .about-img-container {
+    margin-top: 2rem;
+  }
 }
