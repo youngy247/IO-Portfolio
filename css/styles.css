@@ -193,8 +193,28 @@ section {
   border: 1px solid red;
 }
 
-.contact-links a {
+#contact {
+  padding-bottom: 3rem;
+}
+
+#contact p {
+  padding: 2rem;
+  font-size: 1.3rem;
+  text-align: center;
+}
+
+.contact-links {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 65%;
+  margin: 0 auto;
+  gap: 0.5rem 1rem;
+  border: 1px solid red;
+}
+
+.contact-details {
   color: white;
 
   text-decoration: none;
+  font-weight: 900;
 }
