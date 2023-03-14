@@ -249,7 +249,8 @@ footer {
     font-size: 1.5rem;
   }
 
-  .project-container {
+  .project-container,
+  .about-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding-bottom: 2.5rem;
