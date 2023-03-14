@@ -43,7 +43,7 @@ header {
 
 #profile-picture {
   justify-content: center;
-  width: 13vw;
+  width: 3rem;
   border-radius: 50%;
 }
 
@@ -76,19 +76,19 @@ header {
 .hero-image {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url(../images/hero2.jpg);
-  height: 95vh;
+  height: 97vh;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  margin-top: 4rem;
+  margin-top: 3rem;
   z-index: -1;
 }
 
 .hero-text {
   text-align: center;
   position: absolute;
-  top: 45%;
+  top: 47%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
