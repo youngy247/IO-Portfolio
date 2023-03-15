@@ -48,6 +48,7 @@ header {
 
 .links-container {
   padding: 1em;
+
   max-width: 80vw;
   display: flex;
   flex-grow: 1;
@@ -62,6 +63,11 @@ header {
   font-size: 4vw;
 }
 
+.links-container > li {
+  width: 6rem;
+  text-align: center;
+}
+
 .navbar a {
   text-decoration: none;
   color: #e4fde1;
@@ -71,10 +77,11 @@ header {
 
 .navbar a:hover {
   color: #db5921;
+  font-weight: 900;
   /* font-size: 1.9vw; */
-  /* letter-spacing: 0;
-  text-shadow: 0 0 0.01px black; */
-  transition: ease-in 0.25s;
+  /* letter-spacing: 0; */
+  text-shadow: 100px black;
+  /* transition: ease-in 0.25s; */
 }
 
 .hero-image {
@@ -119,7 +126,7 @@ section {
   padding: 2.7rem 2.7rem 0rem 2.7rem;
   display: flex;
   flex-direction: column;
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 
 .divider {
@@ -132,12 +139,15 @@ section {
   display: flex;
   flex-direction: column;
   row-gap: 1rem;
-  border: 1px solid red;
 }
 
 .about-img-container {
-  max-width: 50vw;
-  border: 1px solid red;
+  margin: 0 auto;
+  position: relative;
+}
+
+.about-img-container img {
+  max-width: 30vw;
   margin: 0 auto;
 }
 
@@ -167,20 +177,12 @@ section {
   font-size: 1.5rem;
 }
 
-/* .about-img2 {
-  background-image: url(images/favicon.png);
-}
-
-.about-img2:hover {
-  background-image: url(images/hero2.jpg) no-repeat;
-} */
-
 #io-icon {
   width: 1rem;
   padding-left: 0.04rem;
 }
 .project-container {
-  border: 1px solid red;
+  border: 1px solid black;
 }
 
 .project-container img {
@@ -197,7 +199,6 @@ section {
   flex-wrap: wrap;
   padding-bottom: 1rem;
   margin: 0.2rem 1.5rem 0.5rem 1.5rem;
-  border: 1px solid red;
 }
 
 .project-img-container button {
@@ -234,7 +235,6 @@ section {
   align-items: center;
   row-gap: 0.5em;
   flex-direction: column;
-  border: 1px solid red;
 }
 
 #contact {
@@ -254,7 +254,6 @@ section {
   width: 55%;
   margin: 0 auto;
   gap: 0.5rem 0;
-  border: 1px solid red;
 }
 
 .contact-links i {
@@ -327,7 +326,6 @@ footer {
   .project-content1 {
     grid-column-start: 2;
     grid-row-start: 1;
-    border: 1px solid red;
   }
   .project-content2,
   .about-container {
