@@ -163,6 +163,10 @@ section {
   padding: 1rem 1.5rem 0rem 1.5rem;
 }
 
+#projects h3 {
+  font-size: 1.5rem;
+}
+
 /* .about-img2 {
   background-image: url(images/favicon.png);
 }
@@ -172,7 +176,7 @@ section {
 } */
 
 #io-icon {
-  width: 0.9rem;
+  width: 1rem;
   padding-left: 0.04rem;
 }
 .project-container {
