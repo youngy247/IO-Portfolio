@@ -158,6 +158,14 @@ section {
   padding: 1rem 1.5rem 0rem 1.5rem;
 }
 
+/* .about-img2 {
+  background-image: url(images/favicon.png);
+}
+
+.about-img2:hover {
+  background-image: url(images/hero2.jpg) no-repeat;
+} */
+
 #io-icon {
   width: 0.9rem;
   padding-left: 0.04rem;
@@ -237,6 +245,10 @@ section {
   margin: 0 auto;
   gap: 0.5rem 0;
   border: 1px solid red;
+}
+
+.contact-links i {
+  font-size: 2rem;
 }
 
 .contact-details {
