@@ -326,9 +326,9 @@ footer {
     margin-top: 2rem;
   }
   .contact-links {
-    width: 45%;
+    width: 50%;
     display: flex;
-    justify-content: space-evenly;
-    column-gap: 1.5rem;
+    justify-content: center;
+    column-gap: 3rem;
   }
 }
