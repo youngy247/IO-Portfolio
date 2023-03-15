@@ -232,13 +232,18 @@ section {
   /* border: 1px solid red; */
 }
 
-.project-icon-right {
+.project-icon-container {
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
-  row-gap: 0.5em;
+  padding: 0.5rem 0;
   flex-direction: column;
   border: 1px solid red;
+}
+
+.project-icon-container i {
+  border: 1px solid red;
+  height: 1.5rem;
 }
 
 #contact {
@@ -315,14 +320,14 @@ footer {
     margin-top: 1.3rem;
   }
 
-  .project-icon-right {
+  /* .project-icon-right {
     display: flex;
     justify-content: flex-start;
     align-items: center;
     row-gap: 0.5em;
     flex-direction: column;
     border: 1px solid red;
-  }
+  } */
 
   .project-content1 h3,
   .project-content2 h3,
@@ -348,7 +353,7 @@ footer {
 }
 
 @media only screen and (min-width: 900px) {
-  .project-icon-right {
+  .project-icon-container {
     font-size: 1.7rem;
   }
 }
