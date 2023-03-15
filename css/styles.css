@@ -11,16 +11,16 @@ html {
   color: #e4fde1;
 }
 
-#main-grid {
-  display: grid;
-  grid-template-columns: 1fr;
-}
-
 header {
   top: 0;
   position: fixed;
   width: 100%;
 }
+
+/* #main-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+} */
 
 .navbar {
   width: 100vw;
@@ -77,17 +77,14 @@ header {
 .navbar a:hover {
   color: #db5921;
   font-weight: 900;
-  /* font-size: 1.9vw; */
-  /* letter-spacing: 0; */
   text-shadow: 100px black;
-  /* transition: ease-in 0.25s; */
+  transition: ease-in 0.25s;
 }
 
 .hero-image {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url(../images/hero2.jpg);
   height: 93.5vh;
-
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -199,7 +196,6 @@ section {
   flex-wrap: wrap;
   padding-bottom: 1rem;
   margin: 0.2rem 1.5rem 0.5rem 1.5rem;
-  /* border: 1px solid red; */
 }
 
 .project-img {
@@ -207,9 +203,8 @@ section {
 }
 
 .project-img-container button {
-  margin-left: 1.3rem;
-  align-self: start;
-  justify-content: center;
+  margin-left: 0.4rem;
+
   font-size: 0.8rem;
   background-color: red;
   color: black;
@@ -230,8 +225,8 @@ section {
 .button-container {
   display: flex;
   justify-content: space-evenly;
-  width: 78%;
-  /* border: 1px solid red; */
+  width: 70%;
+  margin-left: 0.3rem;
 }
 
 .project-icon-container {
@@ -325,6 +320,9 @@ footer {
   .project-content1 {
     grid-column-start: 2;
     grid-row-start: 1;
+  }
+  .button-container {
+    width: 88%;
   }
   .project-content2,
   .about-container {
