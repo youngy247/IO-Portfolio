@@ -157,6 +157,11 @@ section {
   margin-top: 1rem;
   padding: 1rem 1.5rem 0rem 1.5rem;
 }
+
+#io-icon {
+  width: 0.9rem;
+  padding-left: 0.04rem;
+}
 .project-container {
   border: 1px solid red;
 }
@@ -198,7 +203,6 @@ section {
 
 .project-icon-right {
   display: flex;
-
   justify-content: flex-start;
   align-items: center;
   row-gap: 0.5em;
