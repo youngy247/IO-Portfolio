@@ -17,11 +17,6 @@ header {
   width: 100%;
 }
 
-/* #main-grid {
-  display: grid;
-  grid-template-columns: 1fr;
-} */
-
 .navbar {
   width: 100vw;
   display: flex;
@@ -79,7 +74,6 @@ header {
 .navbar a:hover {
   color: #db5921;
   font-weight: 900;
-  text-shadow: 100px black;
   transition: ease-in 0.25s;
 }
 
@@ -293,6 +287,7 @@ footer {
     column-gap: 3rem;
     margin-right: 2rem;
   }
+
   .links-container a {
     font-size: 1.5rem;
   }
@@ -303,6 +298,7 @@ footer {
     grid-template-columns: 1fr 1fr;
     padding-bottom: 2.5rem;
   }
+
   .project-img-container {
     margin-top: 1.3rem;
   }
@@ -312,20 +308,25 @@ footer {
   .about-container h3 {
     text-align: center;
   }
+
   .project-content1 {
     grid-column-start: 2;
     grid-row-start: 1;
   }
+
   .button-container {
     width: 88%;
   }
+
   .project-content2,
   .about-container {
     grid-column-start: 1;
   }
+
   .about-img-container {
     margin-top: 2rem;
   }
+
   .contact-links {
     display: flex;
     justify-content: center;
