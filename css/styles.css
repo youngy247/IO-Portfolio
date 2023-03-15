@@ -258,6 +258,7 @@ section {
 .contact-links i {
   color: rgb(104, 192, 255);
   font-size: 2rem;
+  margin-bottom: 0.25rem;
 }
 
 .contact-details {
