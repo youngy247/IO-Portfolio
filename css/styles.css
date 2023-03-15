@@ -196,8 +196,9 @@ section {
   /* border: 1px solid red; */
 }
 
-.project-icon {
+.project-icon-right {
   display: flex;
+
   justify-content: flex-start;
   align-items: center;
   row-gap: 0.5em;
@@ -238,7 +239,7 @@ footer {
 
 /* Desktop version*/
 @media only screen and (min-width: 600px) {
-  .project-icon {
+  .project-icon-right {
     font-size: 2em;
   }
   .navbar {
