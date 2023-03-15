@@ -318,7 +318,7 @@ footer {
   }
 
   .button-container {
-    width: 88%;
+    width: inherit;
   }
 
   .about-img-container {
