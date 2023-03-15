@@ -44,6 +44,8 @@ header {
   margin: 0.2rem 0.5rem 0 0.6rem;
   width: 13vw;
   border-radius: 50%;
+  max-width: 8vh;
+  max-height: 8vh;
 }
 
 .links-container {
@@ -202,7 +204,6 @@ section {
 
 .project-img-container button {
   margin-left: 0.4rem;
-
   font-size: 0.8rem;
   background-color: red;
   color: black;
@@ -280,11 +281,7 @@ footer {
     align-items: center;
     margin: 0;
   }
-  #profile-picture {
-    margin-right: 10px;
-    max-width: 8vh;
-    max-height: 8vh;
-  }
+
   #profile-name {
     margin-top: 0.3em;
     font-size: 1.8rem;
