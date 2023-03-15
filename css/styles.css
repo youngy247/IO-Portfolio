@@ -180,7 +180,8 @@ section {
   padding-left: 0.04rem;
 }
 .project-container {
-  border: 1px solid black;
+  border: 2px solid black;
+  margin-top: 0.5rem;
 }
 
 .project-container img {
