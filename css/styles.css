@@ -66,11 +66,12 @@ header {
   text-decoration: none;
   color: #e4fde1;
   cursor: pointer;
-  transition: ease-in 0.2s;
 }
 
 .navbar a:hover {
-  color: black;
+  color: #db5921;
+  font-weight: 900;
+  transition: ease-in 0.25s;
 }
 
 .hero-image {
