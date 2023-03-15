@@ -48,7 +48,6 @@ header {
 
 .links-container {
   padding: 1em;
-
   max-width: 80vw;
   display: flex;
   flex-grow: 1;
@@ -199,6 +198,11 @@ section {
   flex-wrap: wrap;
   padding-bottom: 1rem;
   margin: 0.2rem 1.5rem 0.5rem 1.5rem;
+  border: 1px solid red;
+}
+
+.project-img {
+  max-width: 32rem;
 }
 
 .project-img-container button {
@@ -235,6 +239,7 @@ section {
   align-items: center;
   row-gap: 0.5em;
   flex-direction: column;
+  border: 1px solid red;
 }
 
 #contact {
@@ -274,9 +279,6 @@ footer {
 
 /* Desktop version*/
 @media only screen and (min-width: 600px) {
-  .project-icon-right {
-    /* font-size: 1.05rem; */
-  }
   .navbar {
     max-height: 10vh;
   }
@@ -314,8 +316,13 @@ footer {
     margin-top: 1.3rem;
   }
 
-  .project-img {
-    max-width: 33vw;
+  .project-icon-right {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    row-gap: 0.5em;
+    flex-direction: column;
+    border: 1px solid red;
   }
 
   .project-content1 h3,
