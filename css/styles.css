@@ -111,7 +111,6 @@ header {
 }
 
 section {
-  display: block;
   padding-top: 0.4rem;
 }
 
@@ -123,7 +122,6 @@ section {
   padding: 2.7rem 2.7rem 0rem 2.7rem;
   display: flex;
   flex-direction: column;
-  /* border: 1px solid red; */
 }
 
 .divider {
@@ -235,7 +233,6 @@ section {
   align-items: center;
   padding: 0.5rem 0;
   flex-direction: column;
-  /* border: 1px solid red; */
 }
 
 #contact {
