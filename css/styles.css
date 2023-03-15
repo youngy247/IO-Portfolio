@@ -326,8 +326,9 @@ footer {
     margin-top: 2rem;
   }
   .contact-links {
-    width: 35%;
+    width: 45%;
     display: flex;
     justify-content: space-evenly;
+    column-gap: 1.5rem;
   }
 }
