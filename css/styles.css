@@ -271,9 +271,6 @@ footer {
 
 /* Desktop version*/
 @media only screen and (min-width: 600px) {
-  .navbar {
-    max-height: 10vh;
-  }
   #profile-picture-container {
     display: flex;
     align-items: center;
