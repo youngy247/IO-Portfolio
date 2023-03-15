@@ -176,7 +176,6 @@ section {
 
 .project-container img {
   width: 55vw;
-  margin-bottom: 0.1rem;
 }
 
 .project-container p {
@@ -326,7 +325,6 @@ footer {
     margin-top: 2rem;
   }
   .contact-links {
-    width: 50%;
     display: flex;
     justify-content: center;
     column-gap: 3rem;
