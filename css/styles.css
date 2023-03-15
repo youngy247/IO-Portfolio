@@ -206,7 +206,7 @@ section {
 .button-container {
   display: flex;
   justify-content: space-evenly;
-  width: 80%;
+  width: 78%;
   /* border: 1px solid red; */
 }
 
