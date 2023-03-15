@@ -177,7 +177,8 @@ section {
 }
 
 .project-container img {
-  width: 50vw;
+  width: 45vw;
+  margin-left: 1.2rem;
 }
 
 .project-container p {
@@ -217,9 +218,11 @@ section {
 
 .button-container {
   display: flex;
-  justify-content: space-evenly;
-  width: 70%;
+  justify-content: center;
+  width: 75%;
   margin-left: 0.3rem;
+  column-gap: 3vw;
+  border: 1px solid red;
 }
 
 .project-icon-container {
@@ -316,11 +319,6 @@ footer {
 
   .button-container {
     width: 88%;
-  }
-
-  .project-content2,
-  .about-container {
-    grid-column-start: 1;
   }
 
   .about-img-container {
