@@ -66,11 +66,14 @@ header {
   text-decoration: none;
   color: #e4fde1;
   cursor: pointer;
+  letter-spacing: 0.235px;
 }
 
 .navbar a:hover {
   color: #db5921;
-  font-weight: 900;
+  /* font-size: 1.9vw; */
+  /* letter-spacing: 0;
+  text-shadow: 0 0 0.01px black; */
   transition: ease-in 0.25s;
 }
 
