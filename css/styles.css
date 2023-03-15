@@ -180,7 +180,7 @@ section {
 }
 
 .project-container img {
-  width: 55vw;
+  width: 50vw;
 }
 
 .project-container p {
@@ -272,7 +272,7 @@ footer {
 /* Desktop version*/
 @media only screen and (min-width: 600px) {
   .project-icon-right {
-    font-size: 2em;
+    /* font-size: 1.05rem; */
   }
   .navbar {
     max-height: 10vh;
@@ -336,5 +336,11 @@ footer {
     display: flex;
     justify-content: center;
     column-gap: 3rem;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  .project-icon-right {
+    font-size: 1.7rem;
   }
 }
