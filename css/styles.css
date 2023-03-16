@@ -73,6 +73,10 @@ a {
   transition: ease-in 0.25s;
 }
 
+section {
+  padding-top: 0.4rem;
+}
+
 .hero-image {
   background-image: linear-gradient(#00000080, #00000080),
     url(../images/hero2.jpg);
@@ -101,10 +105,6 @@ a {
 .hero-text p {
   font-size: 4vw;
   color: #fea900;
-}
-
-section {
-  padding-top: 0.4rem;
 }
 
 #about,
@@ -193,6 +193,7 @@ section {
 
 .project-container p {
   padding: 0.3rem 0.8rem 0.8rem 0.8rem;
+  font-size: 0.9rem;
 }
 
 .project-img-container {
@@ -292,6 +293,10 @@ footer {
   .about-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
+  }
+
+  .project-container p {
+    font-size: 1.2rem;
   }
 
   .project-img-container {
