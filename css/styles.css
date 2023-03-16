@@ -285,6 +285,11 @@ footer {
     font-size: 1.5rem;
   }
 
+  #about h3,
+  #projects h4 {
+    text-align: center;
+  }
+
   .project-container,
   .about-container {
     display: grid;
