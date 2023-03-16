@@ -306,10 +306,14 @@ footer {
     margin-top: 1.3rem;
   }
 
-  .project-content1 h3,
-  .project-content2 h3,
-  .about-container h3 {
-    text-align: center;
+  .project-img-container img {
+    margin-left: 0;
+  }
+
+  .project-right {
+    /* display: fle; */
+    flex-direction: row-reverse;
+    padding: 0;
   }
 
   .project-content1 {
