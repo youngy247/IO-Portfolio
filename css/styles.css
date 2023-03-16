@@ -18,6 +18,7 @@ header {
 a {
   text-decoration: none;
 }
+
 .navbar {
   width: 100vw;
   display: flex;
@@ -62,7 +63,6 @@ a {
 
 .navbar a {
   color: #e4fde1;
-  cursor: pointer;
   letter-spacing: 0.235px;
 }
 
@@ -70,6 +70,10 @@ a {
   color: #db5921;
   font-weight: 900;
   transition: ease-in 0.25s;
+}
+
+section {
+  padding-top: 0.4rem;
 }
 
 .hero-image {
@@ -102,10 +106,6 @@ a {
   color: #fea900;
 }
 
-section {
-  padding-top: 0.4rem;
-}
-
 #about,
 #projects,
 #contact {
@@ -126,6 +126,7 @@ section {
   display: flex;
   flex-direction: column;
   row-gap: 1rem;
+  padding-bottom: 2rem;
 }
 
 .about-img-container {
@@ -149,14 +150,18 @@ section {
   margin-top: 1.75rem;
 }
 
-#about p {
+#about p,
+#projects p {
   padding: 1rem;
 }
 
 #about h3,
 #projects h4 {
-  margin-top: 1rem;
   padding: 1rem 1.5rem 0rem 1.5rem;
+}
+
+#about h3 {
+  margin-top: 1rem;
 }
 
 #projects h3 {
@@ -176,16 +181,18 @@ section {
 
 .project-container {
   border: 2px solid #000000;
-  margin-top: 0.5rem;
+  margin-top: 2rem;
 }
 
 .project-container img {
-  width: 45vw;
+  width: 47vw;
   margin-left: 1.2rem;
+  max-width: 32rem;
 }
 
 .project-container p {
   padding: 0.3rem 0.8rem 0.8rem 0.8rem;
+  font-size: 0.9rem;
 }
 
 .project-img-container {
@@ -196,13 +203,8 @@ section {
   margin: 0.2rem 1.5rem 0.5rem 1.5rem;
 }
 
-.project-img {
-  max-width: 32rem;
-}
-
 .project-img-container a {
   color: #68c0ff;
-
   padding-right: 1rem;
   font-size: 0.9rem;
 }
@@ -239,7 +241,7 @@ section {
   text-align: center;
   width: 55%;
   margin: 0 auto;
-  gap: 0.5rem 0;
+  gap: 1rem 0;
 }
 
 .contact-links i {
@@ -280,11 +282,19 @@ footer {
     font-size: 1.5rem;
   }
 
+  #about h3,
+  #projects h4 {
+    text-align: center;
+  }
+
   .project-container,
   .about-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    padding-bottom: 2.5rem;
+  }
+
+  .project-container p {
+    font-size: 1rem;
   }
 
   .project-img-container {
@@ -296,7 +306,6 @@ footer {
   }
 
   .project-right {
-    /* display: fle; */
     flex-direction: row-reverse;
     padding: 0;
   }
