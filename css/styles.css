@@ -12,9 +12,7 @@ html {
 }
 
 header {
-  top: 0;
   position: fixed;
-  width: 100%;
 }
 
 .navbar {
@@ -22,11 +20,6 @@ header {
   display: flex;
   justify-content: space-between;
   background-color: #432929;
-}
-
-#profile-picture-container {
-  margin: 0 auto;
-  width: 100%;
 }
 
 #profile-name {
@@ -147,6 +140,7 @@ section {
   font-size: 2.5rem;
   text-align: center;
 }
+
 #about h2,
 #projects h2 {
   margin-top: 1.75rem;
@@ -171,6 +165,7 @@ section {
   width: 1rem;
   padding-left: 0.04rem;
 }
+
 .project-container {
   border: 2px solid black;
   margin-top: 0.5rem;
