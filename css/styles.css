@@ -204,29 +204,21 @@ section {
   border-radius: 5%;
   border: 1px solid black;
 }
-.project-img-container button {
+
+.project-img-container a {
+  color: rgb(104, 192, 255);
   text-decoration: none;
-  color: black;
-}
-
-.project-img-container button:hover {
-  background-color: green;
-
-  cursor: pointer;
-  border: 1px solid white;
-}
-
-button a {
-  text-decoration: none;
-  color: black;
+  padding-right: 1rem;
+  font-size: 0.9rem;
 }
 
 .button-container {
-  display: flex;
-  justify-content: center;
-  width: 75%;
-  margin-left: 0.3rem;
-  column-gap: 3vw;
+  margin: 0 2.2rem 0;
+  border: 1px solid red;
+}
+
+.button-container a:hover {
+  color: green;
 }
 
 .project-icon-container {
@@ -323,6 +315,12 @@ footer {
 
   .button-container {
     width: inherit;
+    text-align: center;
+    margin-right: ;
+  }
+
+  .button-container a {
+    font-size: 1.8rem;
   }
 
   .about-img-container {
