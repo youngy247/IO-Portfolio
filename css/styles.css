@@ -208,12 +208,21 @@ section {
   border-radius: 5%;
   border: 1px solid black;
 }
+.project-img-container button {
+  text-decoration: none;
+  color: black;
+}
 
 .project-img-container button:hover {
   background-color: green;
-  color: white;
+
   cursor: pointer;
   border: 1px solid white;
+}
+
+button a {
+  text-decoration: none;
+  color: black;
 }
 
 .button-container {
@@ -222,7 +231,6 @@ section {
   width: 75%;
   margin-left: 0.3rem;
   column-gap: 3vw;
-  border: 1px solid red;
 }
 
 .project-icon-container {
@@ -274,7 +282,6 @@ footer {
   #profile-picture-container {
     display: flex;
     align-items: center;
-    margin: 0;
   }
 
   #profile-name {
