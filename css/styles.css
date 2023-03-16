@@ -17,6 +17,7 @@ header {
 
 a {
   text-decoration: none;
+  cursor: pointer;
 }
 
 .navbar {
@@ -63,7 +64,6 @@ a {
 
 .navbar a {
   color: #e4fde1;
-  cursor: pointer;
   letter-spacing: 0.235px;
 }
 
