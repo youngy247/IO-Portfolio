@@ -205,7 +205,6 @@ section {
 
 .project-img-container a {
   color: #68c0ff;
-
   padding-right: 1rem;
   font-size: 0.9rem;
 }
@@ -307,7 +306,6 @@ footer {
   }
 
   .project-right {
-    /* display: fle; */
     flex-direction: row-reverse;
     padding: 0;
   }
