@@ -156,8 +156,15 @@ section {
 
 #about h3,
 #projects h4 {
-  margin-top: 1rem;
   padding: 1rem 1.5rem 0rem 1.5rem;
+}
+
+#about h3 {
+  margin-top: 1rem;
+}
+
+#projects h4 {
+  margin-top: 0rem;
 }
 
 #projects h3 {
@@ -177,7 +184,7 @@ section {
 
 .project-container {
   border: 2px solid #000000;
-  margin-top: 0.5rem;
+  margin-top: 2rem;
 }
 
 .project-container img {
