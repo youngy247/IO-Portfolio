@@ -127,6 +127,7 @@ section {
   display: flex;
   flex-direction: column;
   row-gap: 1rem;
+  padding-bottom: 2rem;
 }
 
 .about-img-container {
@@ -291,7 +292,6 @@ footer {
   .about-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    padding-bottom: 2.5rem;
   }
 
   .project-img-container {
