@@ -150,7 +150,8 @@ section {
   margin-top: 1.75rem;
 }
 
-#about p {
+#about p,
+#projects p {
   padding: 1rem;
 }
 
@@ -161,10 +162,6 @@ section {
 
 #about h3 {
   margin-top: 1rem;
-}
-
-#projects h4 {
-  margin-top: 0rem;
 }
 
 #projects h3 {
