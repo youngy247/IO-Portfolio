@@ -118,7 +118,7 @@ section {
 
 .divider {
   width: 3rem;
-  border: 1px solid gold;
+  border: 1px solid #ffd700;
   margin: 1.1rem auto;
 }
 
@@ -175,7 +175,7 @@ section {
 }
 
 .project-container {
-  border: 2px solid black;
+  border: 2px solid #000000;
   margin-top: 0.5rem;
 }
 
@@ -200,20 +200,8 @@ section {
   max-width: 32rem;
 }
 
-.project-img-container button {
-  margin-left: 0.4rem;
-  font-size: 0.8rem;
-  background-color: red;
-  color: black;
-  width: 13vw;
-  max-width: 5rem;
-  height: 1.6rem;
-  border-radius: 5%;
-  border: 1px solid black;
-}
-
 .project-img-container a {
-  color: rgb(104, 192, 255);
+  color: #68c0ff;
 
   padding-right: 1rem;
   font-size: 0.9rem;
@@ -224,7 +212,7 @@ section {
 }
 
 .button-container a:hover {
-  color: green;
+  color: #00fc00;
 }
 
 .project-icon-container {
@@ -255,13 +243,13 @@ section {
 }
 
 .contact-links i {
-  color: rgb(104, 192, 255);
+  color: #68c0ff;
   font-size: 2rem;
   margin-bottom: 0.25rem;
 }
 
 .contact-details {
-  color: white;
+  color: #ffffff;
   font-weight: 900;
 }
 
