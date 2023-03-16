@@ -149,19 +149,24 @@ section {
   margin-top: 1.75rem;
 }
 
-#about p,
-#projects h3 {
+#about p {
   padding: 1rem;
-  margin: 0 auto;
 }
 
-#about h3 {
+#about h3,
+#projects h4 {
   margin-top: 1rem;
   padding: 1rem 1.5rem 0rem 1.5rem;
 }
 
 #projects h3 {
-  font-size: 1.5rem;
+  font-size: 1.6rem;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+#projects h4 {
+  font-size: 1.4rem;
 }
 
 #io-icon {
@@ -257,7 +262,6 @@ section {
 
 .contact-details {
   color: white;
-  text-decoration: none;
   font-weight: 900;
 }
 
