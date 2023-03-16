@@ -214,7 +214,7 @@ section {
 
 .button-container {
   margin: 0 2.2rem 0;
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 
 .button-container a:hover {
@@ -316,7 +316,7 @@ footer {
   .button-container {
     width: inherit;
     text-align: center;
-    margin-right: ;
+    margin: 0.4rem 0 2.2rem 0;
   }
 
   .button-container a {
