@@ -185,8 +185,9 @@ section {
 }
 
 .project-container img {
-  width: 45vw;
+  width: 47vw;
   margin-left: 1.2rem;
+  max-width: 32rem;
 }
 
 .project-container p {
@@ -199,10 +200,6 @@ section {
   flex-wrap: wrap;
   padding-bottom: 1rem;
   margin: 0.2rem 1.5rem 0.5rem 1.5rem;
-}
-
-.project-img {
-  max-width: 32rem;
 }
 
 .project-img-container a {
