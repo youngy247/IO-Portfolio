@@ -209,11 +209,13 @@ section {
 
 .button-container {
   margin: 0 2.2rem 0;
+  a {
+    &:hover {
+      color: #00fc00;
+    }
+  }
 }
 
-.button-container a:hover {
-  color: #00fc00;
-}
 
 .project-icon-container {
   display: flex;
