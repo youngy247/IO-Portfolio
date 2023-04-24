@@ -1,3 +1,5 @@
+@import 'variables';
+
 *,
 *::before,
 *::after {
@@ -8,7 +10,7 @@
 
 html {
   background: #454545;
-  color: #e4fde1;
+  color: $primary_font;
 }
 
 header {
@@ -62,7 +64,7 @@ a {
 }
 
 .navbar a {
-  color: #e4fde1;
+  color: $primary_font;
   letter-spacing: 0.235px;
 }
 
@@ -77,7 +79,8 @@ section {
 }
 
 .hero-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5019607843), rgba(0, 0, 0, 0.5019607843)), url(../images/hero2.jpg);
+  background-image: linear-gradient(#00000080, #00000080),
+    url(../images/hero2.jpg);
   height: 93.5vh;
   background-position: center;
   background-repeat: no-repeat;
@@ -93,7 +96,7 @@ section {
   top: 48%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: #e4fde1;
+  color: $primary_font;
 }
 
 .hero-text h1 {
@@ -265,65 +268,78 @@ footer {
     display: flex;
     align-items: center;
   }
+
   #profile-name {
     margin-top: 0.3em;
     font-size: 1.8rem;
   }
+
   .links-container {
     flex-grow: 0;
     column-gap: 3rem;
     margin-right: 2rem;
   }
+
   .links-container a {
     font-size: 1.5rem;
   }
+
   #about h3,
   #projects h4 {
     text-align: center;
   }
+
   .project-container,
   .about-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
+
   .project-container p {
     font-size: 1rem;
   }
+
   .project-img-container {
     margin-top: 1.3rem;
   }
+
   .project-img-container img {
     margin-left: 0;
   }
+
   .project-right {
     flex-direction: row-reverse;
     padding: 0;
   }
+
   .project-content1 {
     grid-column-start: 2;
     grid-row-start: 1;
   }
+
   .button-container {
     width: inherit;
     text-align: center;
     margin: 0.4rem 0 2.2rem 0;
   }
+
   .button-container a {
     font-size: 1.8rem;
   }
+
   .about-img-container {
     margin-top: 2rem;
   }
+
   .contact-links {
     display: flex;
     justify-content: center;
     column-gap: 3rem;
   }
 }
+
 @media only screen and (min-width: 900px) {
   .project-icon-container {
     font-size: 1.7rem;
   }
 }
-
-/*# sourceMappingURL=styles.css.map */
