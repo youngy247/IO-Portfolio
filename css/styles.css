@@ -25,6 +25,15 @@ a {
   justify-content: space-between;
   background-color: #432929;
 }
+.navbar a {
+  color: #e4fde1;
+  letter-spacing: 0.235px;
+}
+.navbar a:hover {
+  color: #db5921;
+  font-weight: 900;
+  transition: ease-in 0.25s;
+}
 
 #profile-name {
   margin-left: 0.15rem;
@@ -51,7 +60,6 @@ a {
   list-style: none;
   background-color: #432929;
 }
-
 .links-container a {
   font-size: 4vw;
 }
@@ -59,17 +67,6 @@ a {
 .links-container > li {
   width: 6rem;
   text-align: center;
-}
-
-.navbar a {
-  color: #e4fde1;
-  letter-spacing: 0.235px;
-}
-
-.navbar a:hover {
-  color: #db5921;
-  font-weight: 900;
-  transition: ease-in 0.25s;
 }
 
 section {
@@ -129,7 +126,6 @@ section {
 .about-img-container {
   margin: 0 auto;
 }
-
 .about-img-container img {
   max-width: 18rem;
   margin: 0 auto;
@@ -221,7 +217,6 @@ section {
 #contact {
   padding-bottom: 3rem;
 }
-
 #contact p {
   padding: 2rem;
   font-size: 1.3rem;
@@ -236,7 +231,6 @@ section {
   margin: 0 auto;
   gap: 1rem 0;
 }
-
 .contact-links i {
   color: #68c0ff;
   font-size: 2rem;

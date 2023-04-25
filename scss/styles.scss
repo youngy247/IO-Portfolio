@@ -26,6 +26,15 @@ a {
   display: flex;
   justify-content: space-between;
   background-color: #432929;
+  a {
+    color: $primary_font;
+    letter-spacing: 0.235px;
+    &:hover {
+      color: #db5921;
+      font-weight: 900;
+      transition: ease-in 0.25s;
+    }
+  }
 }
 
 #profile-name {
@@ -52,26 +61,16 @@ a {
   column-gap: 0.85em;
   list-style: none;
   background-color: #432929;
+  a {
+    font-size: 4vw;
+  }
 }
 
-.links-container a {
-  font-size: 4vw;
-}
-
-.links-container > li {
-  width: 6rem;
-  text-align: center;
-}
-
-.navbar a {
-  color: $primary_font;
-  letter-spacing: 0.235px;
-}
-
-.navbar a:hover {
-  color: #db5921;
-  font-weight: 900;
-  transition: ease-in 0.25s;
+.links-container{
+  & > li {
+    width: 6rem;
+    text-align: center;
+  }
 }
 
 section {
@@ -132,11 +131,10 @@ section {
 
 .about-img-container {
   margin: 0 auto;
-}
-
-.about-img-container img {
-  max-width: 18rem;
-  margin: 0 auto;
+  img {
+    max-width: 18rem;
+    margin: 0 auto;
+  }
 }
 
 #about h2,
@@ -227,12 +225,11 @@ section {
 
 #contact {
   padding-bottom: 3rem;
-}
-
-#contact p {
-  padding: 2rem;
-  font-size: 1.3rem;
-  text-align: center;
+  p {
+    padding: 2rem;
+    font-size: 1.3rem;
+    text-align: center;
+  }
 }
 
 .contact-links {
@@ -242,12 +239,11 @@ section {
   width: 55%;
   margin: 0 auto;
   gap: 1rem 0;
-}
-
-.contact-links i {
-  color: #68c0ff;
-  font-size: 2rem;
-  margin-bottom: 0.25rem;
+  i {
+    color: #68c0ff;
+    font-size: 2rem;
+    margin-bottom: 0.25rem;
+  }
 }
 
 .contact-details {
@@ -276,10 +272,9 @@ footer {
     flex-grow: 0;
     column-gap: 3rem;
     margin-right: 2rem;
-  }
-
-  .links-container a {
-    font-size: 1.5rem;
+    a {
+      font-size: 1.5rem;
+    }
   }
 
   #about h3,
@@ -299,10 +294,9 @@ footer {
 
   .project-img-container {
     margin-top: 1.3rem;
-  }
-
-  .project-img-container img {
-    margin-left: 0;
+    img {
+      margin-left: 0;
+    }
   }
 
   .project-right {
@@ -319,10 +313,9 @@ footer {
     width: inherit;
     text-align: center;
     margin: 0.4rem 0 2.2rem 0;
-  }
-
-  .button-container a {
-    font-size: 1.8rem;
+    a {
+      font-size: 1.8rem;
+    }
   }
 
   .about-img-container {
