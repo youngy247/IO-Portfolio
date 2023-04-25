@@ -137,21 +137,22 @@ section {
   }
 }
 
-#about h2,
-#projects h2,
-#contact h2 {
-  font-size: 2.5rem;
-  text-align: center;
+#about,
+#projects,
+#contact {
+  h2 {
+    font-size: 2.5rem;
+    text-align: center;
+  }
 }
 
-#about h2,
-#projects h2 {
-  margin-top: 1.75rem;
-}
-
-#about p,
-#projects p {
-  padding: 1rem;
+#about, #projects {
+  h2 {
+    margin-top: 1.75rem;
+  }
+  p {
+    padding: 1rem;
+  }
 }
 
 #about h3,
@@ -159,8 +160,10 @@ section {
   padding: 1rem 1.5rem 0rem 1.5rem;
 }
 
-#about h3 {
-  margin-top: 1rem;
+#about {
+  h3 {
+    margin-top: 1rem;
+  }
 }
 
 #projects h3 {

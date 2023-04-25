@@ -138,13 +138,10 @@ section {
   text-align: center;
 }
 
-#about h2,
-#projects h2 {
+#about h2, #projects h2 {
   margin-top: 1.75rem;
 }
-
-#about p,
-#projects p {
+#about p, #projects p {
   padding: 1rem;
 }
 
